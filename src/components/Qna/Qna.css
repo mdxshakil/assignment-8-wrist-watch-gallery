@@ -1,0 +1,14 @@
+.qna-section{
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+.qna-container{
+    padding:0 20px;
+    background-color: lightblue;
+    padding: 10px;
+}
+.qna-container p{
+    font-size: 20px;
+    font-weight: 500;
+}
