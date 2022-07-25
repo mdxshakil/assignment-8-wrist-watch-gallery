@@ -9,12 +9,10 @@ const Shop = () => {
         .then(data => setWatches(data))
     },[])
     
-    const style = {
-        width: '100px'
-    }
     return (
         <div className='shop-container'>
             <div className='watches-container'>
+            <h1>Choose your favoutite watch</h1>
                 {
                     watches.map(watch => <Watch
                     watch={watch}
