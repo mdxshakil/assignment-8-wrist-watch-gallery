@@ -1,0 +1,27 @@
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.header-image-container img{
+    width: 120px;
+    margin-left: 30px;
+}
+
+.nav-links-container{
+    margin-right: 30px;
+}
+.nav-links-container a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+    color: rgb(198, 5, 39);
+    font-weight: 500;
+}
+
+.nav-links-container a:hover{
+    color: burlywood;
+}
