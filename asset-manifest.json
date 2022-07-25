@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/assignment-8-wrist-watch-gallery/static/css/main.0a7329b9.css",
-    "main.js": "/assignment-8-wrist-watch-gallery/static/js/main.54e6d66b.js",
+    "main.css": "/assignment-8-wrist-watch-gallery/static/css/main.8de6a298.css",
+    "main.js": "/assignment-8-wrist-watch-gallery/static/js/main.31871083.js",
     "static/js/787.1f81627f.chunk.js": "/assignment-8-wrist-watch-gallery/static/js/787.1f81627f.chunk.js",
     "static/media/logo.png": "/assignment-8-wrist-watch-gallery/static/media/logo.d6a561e8d1f42f9d388d.png",
     "index.html": "/assignment-8-wrist-watch-gallery/index.html",
-    "main.0a7329b9.css.map": "/assignment-8-wrist-watch-gallery/static/css/main.0a7329b9.css.map",
-    "main.54e6d66b.js.map": "/assignment-8-wrist-watch-gallery/static/js/main.54e6d66b.js.map",
+    "main.8de6a298.css.map": "/assignment-8-wrist-watch-gallery/static/css/main.8de6a298.css.map",
+    "main.31871083.js.map": "/assignment-8-wrist-watch-gallery/static/js/main.31871083.js.map",
     "787.1f81627f.chunk.js.map": "/assignment-8-wrist-watch-gallery/static/js/787.1f81627f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a7329b9.css",
-    "static/js/main.54e6d66b.js"
+    "static/css/main.8de6a298.css",
+    "static/js/main.31871083.js"
   ]
 }
