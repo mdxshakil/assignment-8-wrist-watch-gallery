@@ -2,12 +2,25 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
+
 .watches-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 40px;
     margin-top: 40px;
     padding: 40px;
+}
+@media only screen and (max-width:767px){
+    .watches-container{
+        grid-template-columns: 1fr;
+    }
+    
+}
+@media only screen and (min-width:768px) and (max-width:1023px){
+    .watches-container{
+        grid-template-columns: 1fr 1fr;
+    }
+    
 }
 
 .cart{
