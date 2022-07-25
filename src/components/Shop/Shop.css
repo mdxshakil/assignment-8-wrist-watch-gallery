@@ -9,3 +9,25 @@
     margin-top: 40px;
     padding: 40px;
 }
+
+.cart{
+    background-color: aliceblue;
+    padding: 10px;
+    margin-top: 10px ;
+    position: sticky;
+    top: 0;
+}
+.buttons-container button{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(165, 42, 42, 0.705);
+    color: white;
+    font-size: 18px;
+}
+.buttons-container button:hover{
+    background-color: rgb(197, 155, 99);
+    color: brown;
+}

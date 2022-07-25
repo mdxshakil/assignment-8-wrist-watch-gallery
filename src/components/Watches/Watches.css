@@ -25,6 +25,12 @@
     border: none;
     background-color: antiquewhite;
     color: rgb(198, 5, 39);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add-to-cart-btn h3{
+    margin-right: 10px;
 }
 
 .add-to-cart-btn:hover{

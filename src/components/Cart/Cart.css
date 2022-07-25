@@ -1,0 +1,17 @@
+.image-container img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 30px;
+    border: 1px solid lightcoral;
+}
+
+.cart-container{
+    display: flex;
+    align-items: center;
+    margin:20px 0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+    padding: 10px;
+    position: sticky;
+}
