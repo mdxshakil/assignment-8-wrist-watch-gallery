@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
+import Watches from '../Watches/Watches';
 import './Shop.css';
 
 const Shop = () => {
-    const [watches,setWatches] = useState([]);
+    const [ watches , setWatches ] = useState([]);
     useEffect(()=>{
         fetch('watches.json')
         .then(res => res.json())
@@ -12,11 +13,10 @@ const Shop = () => {
     return (
         <div className='shop-container'>
             <div className='watches-container'>
-            <h1>Choose your favoutite watch</h1>
                 {
-                    watches.map(watch => <Watch
-                    watch={watch}
-                    key={watch._id}></Watch>)
+                    watches.map(watch => <Watches
+                    key={watch._id}
+                    watch={watch}></Watches>)
                 }
             </div>
             <div className='cart-container'>
@@ -26,14 +26,6 @@ const Shop = () => {
     );
 };
 
-const Watch = (props) => {
-    return(
-        <div className='watch-container'>
-            <img src={props.watch.picture} alt="" />
-            <h3>{props.watch.name}</h3>
-            <h4>Price: ${props.watch.price}</h4>
-        </div>
-    );
-}
+
 
 export default Shop;
